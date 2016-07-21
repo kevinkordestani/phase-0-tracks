@@ -37,3 +37,4 @@ p "z".ord
 # The number 122 is associated to the character z in the ASCII table. 
 p "How many times does the letter 'a' appear in this string?".count "a"
 # => 4
+
