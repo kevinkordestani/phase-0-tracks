@@ -32,4 +32,48 @@ puts "Decor Theme"
 theme = gets.chomp
 design_clients[:theme] = "#{theme}"
 
+puts "Please enter a field you would like to update:"
+puts "Name, Age, Children, Minimalism, Theme"
+puts "Enter 'none' if you are finished"
+input = gets.chomp 
+	
+	if input == "none"
+		puts "thanks for entering info"
+
+	elsif input == "Name"
+		puts "Name:"
+		name = gets.chomp
+		design_clients[:name] = name 
+		puts "thanks for updating your input"
+		
+	elsif input == "Age"
+		puts "Age:"
+		age = gets.chomp
+		design_clients[:age] = age
+		puts "thanks for updating your input"
+		
+	elsif input == "Children"
+		puts "Children:"
+		children = gets.chomp
+		design_clients[:children] = children
+		puts "thanks for updating your input"
+
+	elsif input == "Minimalism"
+		puts "(y/n)?"
+		if minimalism == "y"
+			design_clients[:minimalism] = true
+		else 
+			design_clients[:minimalism] = false
+		end
+				
+	elsif input == "Theme"
+		theme = gets.chomp
+		puts "Theme:"
+		design_clients[:theme] = theme
+		puts "thanks for updating your input"
+		
+	else
+		puts "thanks for entering info"
+	end
+	
 p design_clients
