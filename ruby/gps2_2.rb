@@ -73,6 +73,28 @@ update_quantity(list, "apples", 5)
 print_list(list)
 p list 
 
+list2 = create_list("baseball bat hat")
+p list2 
+
+add_item(list2, "Lemonade", 2)
+add_item(list2, "Tomatoes", 3)
+add_item(list2, "Onions", 1)
+add_item(list2, "Ice Cream", 4)
+
+remove_item(list2, "Lemonade")
+update_quantity(list2, "Ice Cream", 1)
+print_list(list2)
+
+#Release 5 
+
+	# I learned that pseudocode helps orginize our thoughts better so that it is easier to write our code
+	# Hashes worked best with this challenge because we had a key/value pair, where the item was the key and quantity was the value
+		#It would have been more challenging using an array. 
+	# A method returns the value of its last line 
+	# I guess you can pass a lot of things into methods as arguments. We passed strings, integers, hashes (which prob means you can pass an array as well).
+	# I learned that I can use a methods output and pass that as an argument into another method
+	# I still had some troube with printing and output 
+
 
 
 
