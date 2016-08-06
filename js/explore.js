@@ -13,6 +13,8 @@ function reverse(string) {
 
 console.log(reverse("hello"));
 
+//Driver code:
+
 var reversedString = "olleh"
 
 if (1 == 1){
