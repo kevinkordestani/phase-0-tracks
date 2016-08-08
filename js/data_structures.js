@@ -14,3 +14,27 @@ for (var i = 0; i < horse_names.length; i++) {
 
 console.log(horse);
 
+function Car(company, make, color) {
+	console.log("Creating new car...")
+	this.company = company;
+	this.make = make;
+	this.color = color;
+
+	this.rev_engine = function() { console.log("VROOOOOM!"); };
+}
+
+var newCar1 = new Car("BMW", "M6", "White");
+console.log(newCar1);
+newCar1.rev_engine();
+
+var newCar2 = new Car("Honda", "Civic", "Grey");
+console.log(newCar2);
+newCar2.rev_engine();
+
+var newCar3 = new Car ("Toyota", "Camery", "Red");
+console.log(newCar3);
+newCar3.rev_engine();
+
+
+
+
