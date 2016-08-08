@@ -35,4 +35,5 @@ function Find_pair(object1, object2) {
 }
 
 console.log(Find_pair({name: "Steven", age: 54}, {name: "Tamir", age: 54}));
+console.log(Find_pair({name: "Kevin", age: 29}, {name: "Kat", age: 30}));
 
